@@ -105,6 +105,6 @@ summary {
 
 @media (max-width: 768px) {
     .saiba-mais {
-        width: 100px;
+        width: 100%;
     }
 }
