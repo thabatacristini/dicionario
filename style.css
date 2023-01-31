@@ -1,0 +1,110 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    height: 100px;
+    border-bottom: 1px solid color #000;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    header {
+        margin-bottom: 20px;
+        height: 200px;
+    }
+}
+
+h1 {
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+}
+
+.subtitulo {
+    text-align: center;
+}
+
+.sobre-mulher {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #000;
+    vertical-align: top;
+    max-width: 100%;
+    
+}
+
+@media (max-width: 768px) {
+    .sobre-mulher {
+        display: block;
+        margin: 20px 10px 20px 10px;
+    }
+}
+
+
+
+#cards {
+    margin: 0 auto;
+    display: block;
+    max-width: 1024px;
+    width: 100%;
+}
+
+
+.paragrafo {
+    padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .paragrafo {
+        font-size: 14px;
+    }
+}
+
+summary {
+    font-size: 18px;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    summary {
+        font-size: 16px;
+    }
+}
+
+.citacao {
+    color: #777;
+    font-style: italic;
+}
+
+
+.foto {
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+@media (max-width: 768px) {
+    .foto {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.saiba-mais {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .saiba-mais {
+        width: 100px;
+    }
+}
